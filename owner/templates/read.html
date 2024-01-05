@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            text-align: center;
+        }
+
+        p {
+            word-wrap: break-word; /* 自动换行 */
+            white-space: pre-wrap; /* 保留空白符，并自动换行 */
+            font-size: 1vw; /* 设置字体大小为视窗宽度的百分比 */
+            /*margin: 20% 0; !* 调整垂直居中的位置 *!*/
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        /* 添加媒体查询，以适应更小的屏幕 */
+        @media screen and (max-width: 600px) {
+            p {
+                font-size: 5vw; /* 在较小的屏幕上增加字体大小 */
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Result: {{ token }}</p>
+    <form method="post">
+        <input class="btn" type="submit" name="submit" value="Back">
+    </form>
+</body>
+</html>
