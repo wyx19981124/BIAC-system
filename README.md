@@ -1,7 +1,7 @@
 # BIAC System
 
 ## Introduction
-The BIAC System is a blockchain-based access control system that utilizes zero-knowledge proof technology. It ensures robust anonymity for account information and mitigates security concerns related to behavior, habits, and record privacy for both objects and subjects.
+This BIAC System is a blockchain-based access control system that utilizes zero-knowledge proof technology. It ensures robust anonymity for account information and mitigates security concerns related to behavior, habits, and record privacy for both objects and subjects.
 
 ## Features
 - **Blockchain-Based**: Leverages the security and transparency of blockchain technology.
